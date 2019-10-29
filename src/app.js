@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://root:root@node-api-cluster-mazf5.gcp.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(`${process.env.MONGO_URL}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
