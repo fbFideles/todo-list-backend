@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect(`${process.env.MONGO_URL}`, {
+mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -16,4 +16,4 @@ require('./model/Task')
 
 app.use(require('./routes'))
 
-app.listen(process.env.PORT || 3000)
+module.exports = app
