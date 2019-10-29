@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://root:root@node-api-cluster-mazf5.gcp.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(proces.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -16,6 +16,4 @@ require('./model/Task')
 
 app.use(require('./routes'))
 
-app.listen(3333, () => {
-    console.log("Server running on port 3333")
-})
+app.listen(process.env.PORT || 3000)
