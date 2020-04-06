@@ -1,1 +1,9 @@
+# Dependências
 node_modules
+
+# Variáveis de ambiente
+.env
+
+# Cache de dependências
+yarn.lock
+package-lock.json
