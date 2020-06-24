@@ -1,6 +1,5 @@
-const express = require('express')
+const routes = require('express').Router()
 const TaskController = require('./controller/TaskController')
-const routes = express.Router()
 
 routes.get('/tasks', TaskController.index)
 routes.get('/tasks/:id', TaskController.show)
