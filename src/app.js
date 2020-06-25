@@ -5,9 +5,6 @@ const morgan = require('morgan')
 
 const app = express()
 
-require('dotenv/config')
-
-app.use(morgan('dev'))
 app.use(cors())
 app.use(express.json())
 
