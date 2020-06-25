@@ -2,7 +2,7 @@
 > Todo List web app REST API
 
 # 🎯 Objective:
-> API built for the data manegement of the web app Todo List, and to study the base concepts of REST and CORS
+> API built for the data manegement of the web app Todo List, and to study the basicconcepts of REST and CORS
 
 # 🔬 Techs: 
 * NodeJs
