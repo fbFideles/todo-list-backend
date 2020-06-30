@@ -267,7 +267,7 @@
     **Content:** `{ message: 'could not delete a task', error }`
 
 
-# 🏗 In Construction
+# 🚀🪂 Finished
 
 Project under [📕 MIT license](https://github.com/fbFideles/todo-list-backend/blob/master/LICENSE)
-Built by [Felipe Fideles](https://github.com/fbFideles)
+Built by [Felipe Fideles](https://github.com/fbFideles) in 2020
